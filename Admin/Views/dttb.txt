@@ -1,0 +1,19 @@
+let table = new DataTable('#banchay',{
+            "language": {
+            "lengthMenu": "Hiển thị _MENU_ mục mỗi trang",
+            "zeroRecords": "Không có thông tin",
+            "info": "Trang _PAGE_ của _PAGES_",
+            "infoEmpty": "Không có dữ liệu",
+            "infoFiltered": "(đã lọc tổng cộng _MAX_ bản ghi)",
+            "search":         "Tìm kiếm:",
+            "paginate": {
+        "first":      "<<",
+        "last":       ">>",
+        "next":       ">",
+        "previous":   "<"
+    }
+        },
+        order: [
+        [3, 'desc']
+      ]
+        });
